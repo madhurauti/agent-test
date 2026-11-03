@@ -2,6 +2,8 @@
 
 An iPhone-first personal memory app: capture ideas and tasks, log runs, search saved entries and see weekly progress. This first increment works locally without accounts or API keys.
 
+For a local Codex agent, start with [the complete handoff](docs/local-agent-handoff.md).
+
 For a beginner-friendly Mac walkthrough, see [Mac setup](docs/mac-setup.md).
 
 ## Run locally and try on iPhone
