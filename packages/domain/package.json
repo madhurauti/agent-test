@@ -1,0 +1,13 @@
+{
+  "name": "@pocket/domain",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "dependencies": {
+    "zod": "^4.0.0",
+    "luxon": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.7.0"
+  }
+}

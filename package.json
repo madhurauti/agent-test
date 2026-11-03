@@ -1,0 +1,25 @@
+{
+  "name": "pocket-memory",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "start": "npm run start -w @pocket/mobile",
+    "typecheck": "tsc --noEmit -p apps/mobile/tsconfig.json",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test",
+    "export:ios": "npm exec -w @pocket/mobile -- expo export --platform ios"
+  },
+  "devDependencies": {
+    "@types/react-test-renderer": "^19.3.0",
+    "react-test-renderer": "^19.3.0",
+    "typescript": "~6.0.3",
+    "vitest": "^4.0.0"
+  }
+}
